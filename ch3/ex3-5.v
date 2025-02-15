@@ -7,3 +7,5 @@ begin
     $monitor($time,"value of signals clock =%b reset =%b",clock,reset);
 end
 //0 value of signals clock=0 reset =1
+//5 value of signals clock=1 reset =1
+//10 value of signals clock=0 reset =0
