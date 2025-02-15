@@ -1,8 +1,4 @@
 //한 파일에 여러 모듈 정의해도 됨
-/*!
-# SR Latch Circuit
-![SR Latch Circuit](./img/SRlatch.png)
-*/
 //SR래치 모듈
 module SR_latch(Q,Qbar,Sbar,Rbar);
 //포트 선언
@@ -13,7 +9,7 @@ input Sbar,Rbar;
 nand n1(Q,Sbar,Qbar);
 nand n2(Qbar,Rbar,Q);
 end module
-    
+
 //스티뮬러스 모듈
 module Top;
 //wire,reg 선언
