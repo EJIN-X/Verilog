@@ -1,0 +1,7 @@
+연속 할당문
+하나의 값을 넷에 할당하는데 사용된다.
+assign으로 사용
+continuous_assign :: assign [신호 강도] [지연값]
+                     list_of_net_assignments;
+list_of_net_assignments :: net_assignment{,net_assignment}
+net_assignment :: = net_lvalue =expression
